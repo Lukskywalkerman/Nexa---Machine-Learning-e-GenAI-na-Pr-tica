@@ -72,7 +72,8 @@ python -m pip install speechrecognition sounddevice soundfile numpy requests
 python main.py
 ```
 
-##🔹 Exemplos de comandos
-"abrir fotos" → abre o app Fotos
-"abrir relógio" → abre o Relógio
-"adicionar comando spotify" → você digita o caminho/execução e o comando fica salvo no JSON
+## 🔹 Exemplos de comandos
+- 📸 **"abrir fotos"** → abre o app Fotos  
+- ⏰ **"abrir relógio"** → abre o Relógio  
+- 🎵 **"adicionar comando spotify"** → você digita o caminho/execução e o comando fica salvo no JSON  
+
