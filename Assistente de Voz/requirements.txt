@@ -1,0 +1,5 @@
+speechrecognition
+sounddevice
+soundfile
+numpy
+requests

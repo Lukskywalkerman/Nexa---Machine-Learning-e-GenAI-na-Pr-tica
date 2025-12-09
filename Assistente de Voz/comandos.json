@@ -1,0 +1,23 @@
+{
+    "relógio": "start ms-clock:",
+    "fotos": "start ms-photos:",
+    "configurações": "start ms-settings:",
+    "email": "start outlookmail:",
+    "calendário": "start outlookcal:",
+    "calculadora": "start calculator:",
+    "loja": "start ms-windows-store:",
+    "câmera": "start microsoft.windows.camera:",
+    "filmes": "start mswindowsvideo:",
+    "música": "start mswindowsmusic:",
+    "mapas": "start bingmaps:",
+    "mensagens": "start ms-chat:",
+    "edge": "start microsoft-edge:",
+    "onenote": "start onenote:",
+    "skype": "start skype:",
+    "teams": "start msteams:",
+    "xbox": "start xbox:",
+    "paint": "start ms-paint:",
+    "contatos": "start ms-people:",
+    "": "abrir wwww.youtube.com",
+    "abrir youtube": "www.youtub.com.br"
+}

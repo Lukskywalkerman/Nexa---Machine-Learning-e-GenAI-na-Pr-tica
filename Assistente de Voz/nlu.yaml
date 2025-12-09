@@ -1,0 +1,9 @@
+version: "3.0"
+nlu:
+- intent: abrir_app
+  examples: |
+    - abrir fotos
+    - abrir relógio
+    - abrir calculadora
+    - quero abrir o [app](app)
+    - iniciar [app](app)
