@@ -1,0 +1,7 @@
+assistente-voz/
+│
+├── main.py              # código principal do assistente
+├── comandos.json        # catálogo inicial de comandos
+├── requirements.txt     # lista de dependências
+├── README.md            # documentação do projeto
+└── .gitignore           # arquivos/pastas a ignorar no GitHub
