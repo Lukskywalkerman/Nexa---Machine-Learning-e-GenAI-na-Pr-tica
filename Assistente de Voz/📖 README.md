@@ -22,8 +22,53 @@ Ele utiliza **SpeechRecognition** com a API do Google para transcrição de voz 
 
 ---
 
+## 🔹 Fluxo de funcionamento
+
+```text
+🎤 Microfone
+      │
+      ▼
+🧠 Reconhecimento de fala (SpeechRecognition)
+      │
+      ▼
+⚙️ Execução de Comando (Sistema / Apps / Sites)
+      │
+      ▼
+💬 Resposta / Ação realizada
+
+---
+
+## 🔹Lista de dependências:
+
+speechrecognition → reconhecimento de voz via Google API
+
+sounddevice → gravação de áudio pelo microfone
+
+soundfile → suporte para manipulação de áudio
+
+numpy → manipulação de arrays de áudio
+
+requests → integração futura com APIs (ex.: Rasa)
+
+##🔹 Como usar
+Clone este repositório:
+
+```bash
+git clone https://github.com/seuusuario/assistente-voz.git
+cd assistente-voz
+
 ## 🔹 Dependências
 Instale as bibliotecas necessárias com:
 
 ```bash
 python -m pip install speechrecognition sounddevice soundfile numpy requests
+
+## Execute o programa:
+
+```bash
+python main.py
+
+##🔹 Exemplos de comandos
+"abrir fotos" → abre o app Fotos
+"abrir relógio" → abre o Relógio
+"adicionar comando spotify" → você digita o caminho/execução e o comando fica salvo no JSON
