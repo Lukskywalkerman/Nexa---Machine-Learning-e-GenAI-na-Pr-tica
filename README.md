@@ -1,5 +1,12 @@
 # 📘 Nexa — Machine Learning e GenAI na Prática
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![AWS](https://img.shields.io/badge/AWS-SageMaker-orange?logo=amazonaws)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
 ## 🔹 Detalhes do Bootcamp
 **IA é só pra quem programa? Não mais.**  
 Chegou a hora de você dominar **Machine Learning** e **IA Generativa** sem precisar ser desenvolvedor.
