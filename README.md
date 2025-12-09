@@ -1,29 +1,52 @@
-# Nexa---Machine-Learning-e-GenAI-na-Pratica
+📘 Nexa — Machine Learning e GenAI na Prática
+🔹 Detalhes do Bootcamp
+IA é só pra quem programa? Não mais. Chegou a hora de você dominar Machine Learning e IA Generativa sem precisar ser desenvolvedor.
 
-Detalhes do bootcamp
+Com o Amazon SageMaker Canvas, você vai:
 
-IA é só pra quem programa? Não mais.
+Criar modelos preditivos.
 
-Chegou a hora de você dominar Machine Learning e IA Generativa sem precisar ser dev. Com o Amazon SageMaker Canvas, você vai criar modelos preditivos, entender como a GenAI funciona nos bastidores e entregar insights que geram valor real para o negócio, tudo isso usando ferramentas low-code da AWS.
+Entender como a GenAI funciona nos bastidores.
 
-Este bootcamp foi desenhado para quem quer começar em IA de verdade: analistas, gestores, profissionais de dados e quem está migrando de carreira. Aprenda os pilares de Machine Learning, Linguagem Natural e IAs Generativas com uma abordagem prática e direto ao ponto.
+Entregar insights que geram valor real para o negócio.
 
-Inscreva-se gratuitamente e dê o primeiro passo rumo a uma carreira onde você usa IA para resolver problemas reais e se destacar no mercado.
+Tudo isso usando ferramentas low-code da AWS.
 
-Atividades:
-Mentorias (Live): Momento em que você irá se inspirar nos talentos das empresas mais inovadoras do mundo, podendo interagir ao longo da live e até fazer perguntas sobre carreira e tecnologia.
+Este bootcamp foi desenhado para quem quer começar em IA de verdade:
 
-Desafio de Código: Coloque em prática todo o conhecimento adquirido nas aulas e teste o seu conhecimento na resolução de um desafio.
+Analistas
 
-Desafio de Projeto: Construa o seu portfólio construindo projetos práticos com o conhecimento adquirido ao longo das aulas.
+Gestores
 
-Ranking: Cada bootcamp possui um ranking com premiações exclusivas, onde você pontua de acordo com as interações que você realiza em Fórum e Rooms, dos acertos que você tem em questionários e da qualidade do código que você desenvolveu nos desafios.
+Profissionais de dados
 
-Ferramentas para o seu aprendizado:
-Fórum: Espaço para você interagir e tirar suas dúvidas técnicas com a nossa comunidade.
+Pessoas em transição de carreira
 
-Rooms: Espaço para você conversar com outros matriculados no bootcamp e aumentar o seu networking.
+Você aprenderá os pilares de Machine Learning, Linguagem Natural e IAs Generativas com uma abordagem prática e direta ao ponto.
 
-Matriculados: Saiba quem está participando da mesma jornada educacional que você.
+🎯 Objetivo
+Dar o primeiro passo rumo a uma carreira onde você usa IA para resolver problemas reais e se destacar no mercado.
 
-Certificado: Baixe e compartilhe os certificados de todas as suas conquistas ao longo desse bootcamp.
+📌 Atividades
+👩‍🏫 Mentorias (Live): Inspire-se com talentos das empresas mais inovadoras do mundo, interaja e faça perguntas sobre carreira e tecnologia.
+
+💻 Desafio de Código: Coloque em prática o conhecimento adquirido e teste suas habilidades.
+
+📂 Desafio de Projeto: Construa seu portfólio com projetos práticos ao longo das aulas.
+
+🏆 Ranking: Cada bootcamp possui um ranking com premiações exclusivas, baseado em:
+
+Interações no Fórum e Rooms
+
+Acertos em questionários
+
+Qualidade do código nos desafios
+
+🛠️ Ferramentas para o aprendizado
+📖 Fórum: Espaço para tirar dúvidas técnicas com a comunidade.
+
+💬 Rooms: Converse com outros participantes e aumente seu networking.
+
+👥 Matriculados: Veja quem está na mesma jornada educacional que você.
+
+📜 Certificado: Baixe e compartilhe certificados de todas as suas conquistas.
