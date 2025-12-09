@@ -51,7 +51,7 @@ numpy → manipulação de arrays de áudio
 
 requests → integração futura com APIs (ex.: Rasa)
 
-##🔹 Como usar
+## 🔹 Como usar
 Clone este repositório:
 
 ```bash
