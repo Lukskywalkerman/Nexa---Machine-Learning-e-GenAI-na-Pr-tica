@@ -36,6 +36,7 @@ Ele utiliza **SpeechRecognition** com a API do Google para transcrição de voz 
       ▼
 💬 Resposta / Ação realizada
 
+```
 ---
 
 ## 🔹Lista de dependências:
