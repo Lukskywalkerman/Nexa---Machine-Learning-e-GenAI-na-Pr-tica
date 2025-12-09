@@ -55,19 +55,22 @@ requests → integração futura com APIs (ex.: Rasa)
 Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/assistente-voz.git
-cd assistente-voz
+git clone https://github.com/seuusuario/assistente-voz](https://github.com/Lukskywalkerman/Nexa---Machine-Learning-e-GenAI-na-Pr-tica/tree/main/Assistente%20de%20Voz.git
+cd Assistente de Voz
+```
 
 ## 🔹 Dependências
 Instale as bibliotecas necessárias com:
 
 ```bash
 python -m pip install speechrecognition sounddevice soundfile numpy requests
+```
 
-## Execute o programa:
+## 🔹Execute o programa:
 
 ```bash
 python main.py
+```
 
 ##🔹 Exemplos de comandos
 "abrir fotos" → abre o app Fotos
