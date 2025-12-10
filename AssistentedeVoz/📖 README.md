@@ -13,13 +13,19 @@ Ele utiliza **SpeechRecognition** com a API do Google para transcrição de voz 
 
 ---
 
-## 🔹 Funcionalidades
-- 🎤 Captura áudio pelo microfone usando **sounddevice**  
-- 🧠 Reconhece fala em português com **speech_recognition**  
-- ⚙️ Executa comandos do sistema (abrir apps, sites, etc.)  
-- 📂 Permite adicionar novos comandos dinamicamente via voz  
-- 💾 Salva comandos personalizados em `comandos.json`  
+## 🚀 Funcionalidades
 
+- 🕒 **Hora atual** → "Tina que horas são"
+- 📚 **Pesquisa na Wikipédia** → "Tina pesquise sobre inteligência artificial"
+- 🎵 **Tocar músicas no YouTube** → "Tina toque música do Queen"
+- 😂 **Contar piadas** → "Tina conte uma piada"
+- 🌦️ **Clima (placeholder)** → "Tina qual a previsão do tempo"
+- 🌍 **Tradução automática** (via `deep-translator`) → "Tina traduza bom dia para inglês"
+- 💻 **Abrir aplicativos locais** → "Tina abra o navegador", "Tina abra o Spotify"
+- 🖥️ **Controle do sistema** → "Tina desligue o computador", "Tina reinicie"
+- 📝 **Notas rápidas** → "Tina anote reunião amanhã às 10h"
+- 📰 **Notícias em tempo real** → "Tina últimas notícias de tecnologia"
+- ❌ **Encerrar assistente** → "Tina encerrar assistente"
 ---
 
 ## 🔹 Fluxo de funcionamento
@@ -60,10 +66,15 @@ cd Assistente de Voz
 ```
 
 ## 🔹 Dependências
-Instale as bibliotecas necessárias com:
+Instale as bibliotecas necessárias no Python 3.13:
 
 ```bash
-python -m pip install speechrecognition sounddevice soundfile numpy requests
+pip install -r requirements.txt
+```
+
+3. Baixe o modelo de português do spaCy
+```bash
+python -m spacy download pt_core_news_sm
 ```
 
 ## 🔹Execute o programa:
@@ -71,6 +82,18 @@ python -m pip install speechrecognition sounddevice soundfile numpy requests
 ```bash
 python main.py
 ```
+
+## 🛠️ Tecnologias usadas
+- Python 3.13
+- SpeechRecognition – reconhecimento de voz
+- pyttsx3 – síntese de voz
+- wikipedia – consultas rápidas
+- pywhatkit – tocar músicas no YouTube
+- pyaudio – captura de áudio
+- spaCy – NLP
+- deep-translator – tradução automática
+- requests + BeautifulSoup4 – notícias em tempo real
+
 
 ## 🔹 Exemplos de comandos
 - 📸 **"abrir fotos"** → abre o app Fotos  
