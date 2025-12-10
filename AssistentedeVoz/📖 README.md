@@ -72,7 +72,7 @@ Instale as bibliotecas necessárias no Python 3.13:
 pip install -r requirements.txt
 ```
 
-3. Baixe o modelo de português do spaCy
+## 🔹 Baixe o modelo de português do spaCy
 ```bash
 python -m spacy download pt_core_news_sm
 ```

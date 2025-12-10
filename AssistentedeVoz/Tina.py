@@ -6,6 +6,7 @@ import pywhatkit
 import spacy
 import os
 import requests
+import json
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
 
@@ -14,6 +15,13 @@ nlp = spacy.load("pt_core_news_sm")
 
 wake_word = "tina"
 rodando = True  # controle do loop principal
+
+# Caminho relativo ao próprio script
+base_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(base_dir, "comandos.json")
+
+with open(json_path, "r", encoding="utf-8") as f:
+    comandos_apps = json.load(f)
 
 # Intenções com exemplos
 intencoes = {
@@ -106,14 +114,13 @@ def executar_comando(comando: str) -> str:
             resposta = "Não consegui traduzir agora."
 
     elif intent == "abrir":
-        if "navegador" in comando:
-            resposta = "Abrindo navegador..."
-            os.system("start chrome")
-        elif "spotify" in comando:
-            resposta = "Abrindo Spotify..."
-            os.system("start spotify")
+        app = comando.replace("abra", "").replace("inicie", "").replace("executar", "").strip()
+        if app in comandos_apps:
+            caminho = comandos_apps[app]
+            os.system(f'start "" "{caminho}"')
+            resposta = f"Abrindo {app}..."
         else:
-            resposta = "Não sei qual aplicativo abrir."
+            resposta = f"Não encontrei o comando para '{app}' no JSON."
 
     elif intent == "sistema":
         if "desligue" in comando or "shutdown" in comando:
